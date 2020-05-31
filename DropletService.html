@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!--标签的注释方式 ctrl＋斜杠-->
+<!--标签：双标签和单标签-->
+ <!--行内标签和块级标签-->
+<!--属性-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8"  name="viewport" content="width=device-width,initial-scale=1 user-scalable=no">
+    <title>刘昊</title>
+    <!--用来加载外部资源的标签-->
+    <!--相对路径和绝对路径-->
+    <link rel="short icon" href="Resource/icon.png">
+    <!--加载外部样式CSS,一个项目有很多地方样式都一样时-->
+    <link rel="stylesheet"  href="ExternalStyle.css">
+    <!--加载页内样式CSS,一个项目在项目出现的次数比较少,代码量稍大时，-->
+    <style>
+        /*成行的标签display;table; width;需求*/
+         section ul{
+            display: table;
+            width :100%;
+            background: white;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        /*成列的标签display;table-cell; width;需求*/
+          section li{
+            display: table-cell;
+            width: 33.3%;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .DS_second_section img{
+            margin-bottom:  -6px;
+        }
+        /*把span行标签变为块级标签*/
+          section ul li span{
+            display: block;
+        }
+    </style>
+</head>
+
+
+
+<body>
+<!--第一部分-->
+<header class="DS_header" >
+       <span>小滴服务</span>
+</header>
+
+
+<!--第二部分-->
+<section class="DS_second_section">
+<img src="Resource/banner-1.png" alt="警告！网络出现问题！">
+</section>
+
+
+
+<!--第三部分-->
+<section>
+<ul>
+    <li>
+        <img src="Resource/index1.png" alt="">
+        <span>企业项目</span>
+        </li>
+    <li>
+        <img src="Resource/index2.png" alt="">
+        <span>平台风采</span>
+        </li>
+    <li>
+        <img src="Resource/index3.png" alt="">
+        <span>报名流程</span>
+    </li>
+</ul>
+
+
+
+
+<ul>
+    <li>
+        <img src="Resource/index4.png" alt="">
+        <span>客户管理</span>
+        </li>
+    <li>
+        <img src="Resource/index5.png" alt="">
+        <span>账务管理</span>
+        </li>
+    <li>
+        <img src="Resource/index6.png" alt="">
+        <span>新闻公告</span>
+        </li>
+</ul>
+
+
+
+
+<ul>
+    <li>
+        <img src="Resource/index7.png" alt="">
+        <span>工程案例</span>
+        </li>
+    <li>
+        <img src="Resource/index8.png" alt="">
+        <span>修改密码</span>
+        </li>
+    <li>
+        <img src="Resource/index9.png" alt="">
+        <span>会员注册</span>
+        </li>
+</ul>
+
+  </section>
+
+
+<!--第四部分-->
+<footer>
+    <ul>
+        <li>
+            <a href="DropletService.html">
+                <img src="Resource/nav11.png" alt="">
+                <span style="color: red"> 小滴服务 </span>    <!--加载行内样式CSS,某个样式代码很少，样式出现次数少-->
+            </a>
+        </li>
+        <li>
+            <a href="BusinessProject.html">
+                <img src="Resource/nav20.png" alt="">
+                <span>企业项目</span>
+            </a>
+        </li>
+        <li>
+            <a href="ServiceProcess.html">
+                <img src="Resource/nav30.png" alt="">
+                <span>服务流程</span>
+            </a>
+        </li>
+        <li>
+            <a href="Platform.html">
+                <img src="Resource/nav40.png" alt="">
+                <span>平台风采</span>
+            </a>
+        </li>
+        <li>
+            <a href="MyDroplet.html">
+                <img src="Resource/nav50.png" alt="">
+                <span>我的小滴</span>
+            </a>
+        </li>
+    </ul>
+</footer>
+
+</body>
+</html>
